@@ -14,3 +14,19 @@ Just run `python app.py`
 
 #### Node.js
 Go to [Node.js](https://nodejs.org/en), install the latest version, everything as default\
+
+#### Python
+Go to [Python.org](https://www.python.org/downloads/), install the latest version, then `pip install` necessary packages.\
+Be sure to set the virtual environment correctly and activate flask powershell script (on the older versions). 
+
+## Tests
+
+N/A (yet)
+
+## Built With
+
+* [Svelte](https://svelte.dev/) - Web framework
+* [Flask](https://flask.palletsprojects.com/en/3.0.x/) - Server framework
+* [Vite](https://vitejs.dev/) - Typescript packager
+
+## Versioning
