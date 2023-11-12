@@ -5,7 +5,7 @@ One Paragraph of project description goes here (TODO @katwilk7)
 ## Getting Started
 
 Run `npm i` once.\
-Run `npm run dev` to serve the webapp\ \
+Run `npm run dev` to serve the webapp\
 
 If backend is not working, be sure to run the flask server locally and change the url in webapp.\
 Just run `python app.py`
