@@ -1,6 +1,11 @@
 # Colorful Nonogram Solver
 
-One Paragraph of project description goes here (TODO @katwilk7)
+A software solution for converting images into solvable nonograms, preferably without trial-and-error, as well as solving nonograms.
+It has been done in the terms of black and white nonograms, but research (opening 5 first google results) has shown no solutions capable of solving and creating coloured nonograms.\
+The project consists of three parts:
+* python webserver for solving nonograms
+* js/svelte frontend for displaying algorithm steps, also functioning as user app for solving the nonograms by hand
+* (optional) python utility for image-to-nonogram conversion
 
 ## Getting Started
 
