@@ -30,3 +30,21 @@ N/A (yet)
 * [Vite](https://vitejs.dev/) - Typescript packager
 
 ## Versioning
+
+We will probably, in the future, use [SemVer](http://semver.org/) for versioning (if ever).
+
+## Authors
+
+* **Mateusz Francik** - *Idea, initial work* - [Frendzlu](https://github.com/Frendzlu)
+* **Jagoda Flejmer** - *Initial work, management* - [jFlamer](https://github.com/jFlamer)
+* **Jakub Kierznowski** - *Initial work, frontend* - [qualv13](https://github.com/qualv13)
+* **Katarzyna Wilk** - *Initial work, algorithm consultations* - [katwilk7](https://github.com/katwilk7)
+
+## License
+
+This project's frontend is licensed under the MIT License - see the [LICENSE.md](https://github.com/AGH-Narzedzia-Informatyczne-2023-2024/nonogram-solver-webapp/blob/main/LICENSE) file for details
+This project's backend is licensed under the AGPL-3.0 License - see the [LICENSE.md](https://github.com/AGH-Narzedzia-Informatyczne-2023-2024/nonogram-solver-backend/blob/main/LICENSE) file for details
+
+## Acknowledgments
+
+* Paweł Jemioło, for making us do this project.
