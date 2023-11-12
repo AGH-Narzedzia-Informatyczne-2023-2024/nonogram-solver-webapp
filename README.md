@@ -1,18 +1,16 @@
-## Recommended IDE Setup
+# Colorful Nonogram Solver
 
-- [VS Code](https://code.visualstudio.com/)
-- [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
-- [Typescript](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
+One Paragraph of project description goes here (TODO @katwilk7)
 
-## Node.js
+## Getting Started
 
-Run `node -v`.\
-If it shows a version of node, skip this step
-
-### Installing node
-
-Go to [Node.js](https://nodejs.org/en), install the latest version, everything as default
-
-## When you have node installed
 Run `npm i` once.\
-Run `npm run dev` to serve the webapp
+Run `npm run dev` to serve the webapp\ \
+
+If backend is not working, be sure to run the flask server locally and change the url in webapp.\
+Just run `python app.py`
+
+### Prerequisites
+
+#### Node.js
+Go to [Node.js](https://nodejs.org/en), install the latest version, everything as default\
