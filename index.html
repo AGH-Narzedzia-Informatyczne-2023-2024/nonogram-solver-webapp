@@ -3,11 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Svelte + TS</title>
   </head>
+
+  
+
+
+  
   <body>
+
+    <div class="sidenav">
+      <a href="#profile">Profile</a>
+      <a href="#game">Game</a>
+      <a href="#Leadboard">Leadboard</a>
+      <a href="#contact">Contact</a>
+      <button class="dropdown-btn">Dropdown 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+      <ul>
+         <li><a href="#">Link 1</a></li>
+         <li><a href="#">Link 2</a></li>
+         <li><a href="#">Link 3</a></li>
+        
+        </ul>
+    
+      </div>
+      <a href="#contact">Search</a>
+    </div>
+    
+    <div class="main">
+      <h2>Does_someone_know_python</h2>
+      <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
+      <p>This sidebar is of full height (100%) and always shown.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab animi, autem enim quas nobis! Commodi, modi ducimus? Quisquam dignissimos fuga harum tempore earum blanditiis amet assumenda ex temporibus rem.</p>
+    </div>
+
+    <script>
+      /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+      var i;
+      
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+        } else {
+        dropdownContent.style.display = "block";
+        }
+        });
+      }
+      </script>
+
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
+
+
   </body>
 </html>
