@@ -1,5 +1,4 @@
 <script lang="ts">
-
   function handleClick() {
     let dropdownBtn = document.getElementById("dropdown-btn") as HTMLButtonElement;
     let dropdownContent = document.getElementById("sidenav") as HTMLDivElement;
