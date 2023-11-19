@@ -23,13 +23,6 @@
     <a href="#Leadboard">Leadboard</a>
     <a href="#contact">Contact</a>
   </div>
-  
-  <div class="main">
-    <h2>Does_someone_know_python</h2>
-    <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
-    <p>This sidebar is of full height (100%) and always shown.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab animi, autem enim quas nobis! Commodi, modi ducimus? Quisquam dignissimos fuga harum tempore earum blanditiis amet assumenda ex temporibus rem.</p>
-  </div>
 </main>
 
 <style>
