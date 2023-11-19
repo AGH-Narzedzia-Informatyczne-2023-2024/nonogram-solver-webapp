@@ -1,0 +1,136 @@
+<script lang="ts">
+  /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+  let dropdownBtn = document.getElementById("dropdown-btn") as HTMLButtonElement;
+  let dropdownContent = document.getElementById("dropdown-container") as HTMLDivElement;
+  
+  dropdownBtn.addEventListener("click", e => {
+    dropdownBtn.classList.toggle("active");
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+    
+</script>
+
+
+
+<main>
+  <div class="sidenav">
+    <a href="#profile">Profile</a>
+    <a href="#game">Game</a>
+    <a href="#Leadboard">Leadboard</a>
+    <a href="#contact">Contact</a>
+    <button id="dropdown-btn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="dropdown-container">
+    <ul>
+       <li><a href="#">Link 1</a></li>
+       <li><a href="#">Link 2</a></li>
+       <li><a href="#">Link 3</a></li>
+    
+    </ul>
+  
+    </div>
+    <a href="#contact">Search</a>
+  </div>
+  
+  <div class="main">
+    <h2>Does_someone_know_python</h2>
+    <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
+    <p>This sidebar is of full height (100%) and always shown.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab animi, autem enim quas nobis! Commodi, modi ducimus? Quisquam dignissimos fuga harum tempore earum blanditiis amet assumenda ex temporibus rem.</p>
+  </div>
+
+</main>
+
+<style>
+  body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 2221;
+    top: 0;
+    left: 0;
+    background-color: #111;
+
+    padding-top: 20px;
+  }
+
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a,
+  .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* On mouse-over */
+  .sidenav a:hover,
+  .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+
+  .dropdown-container ul {
+    position: fixed;
+    margin-left: 192px;
+    background-color: #111;
+    list-style: none;
+    margin-top: -36px;
+    padding: 0;
+  }
+
+  .dropdown-container ul {
+    width: 150px;
+  }
+</style>
