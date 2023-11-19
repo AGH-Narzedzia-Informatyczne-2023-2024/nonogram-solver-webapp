@@ -3,10 +3,12 @@
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
   import Sidebar from './lib/Sidebar.svelte';
+  import Board from './lib/Board.svelte';
 </script>
 
 <main>
   <Sidebar />
+  <Board />
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />
