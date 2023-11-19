@@ -2,11 +2,17 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
-  import Sidebar from './lib/Sidebar.svelte';
+  import Sidebar from './lib/Sidebar.svelte'
+
+  let rows: number
+  let columns: number
+  let colors: number
+
 </script>
 
 <main>
-  <Sidebar />
+  <Sidebar bind:rows bind:columns bind:colors />
+  {rows} {columns} {colors} 
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />
