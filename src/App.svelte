@@ -7,8 +7,9 @@
 </script>
 
 <main>
-  <Sidebar />
-  <Board />
+  <Sidebar bind:rows bind:columns bind:colors />
+  {rows} {columns} {colors} 
+  
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />

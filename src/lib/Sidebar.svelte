@@ -1,4 +1,8 @@
 <script lang="ts">
+  export let rows = 1
+  export let columns = 1
+  export let colors = 1
+
   function handleClick() {
     let dropdownBtn = document.getElementById("dropdown-btn") as HTMLButtonElement;
     let dropdownContent = document.getElementById("sidenav") as HTMLDivElement;
@@ -17,10 +21,19 @@
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="sidenav" id="sidenav">
-    <a href="#profile">Profile</a>
-    <a href="#game">Game</a>
-    <a href="#Leadboard">Leadboard</a>
-    <a href="#contact">Contact</a>
+    <label for="rows">Rows:</label><br>
+    <input type="number" name="rows" bind:value={rows}>
+    <label for="columns">Columns:</label><br>
+    <input type="number" name="columns" bind:value={columns}>
+    <label for="colors">Colors:</label><br>
+    <input type="number" name="colors" bind:value={colors}>
+  </div>
+  {rows} {columns} {colors} 
+  <div class="main">
+    <h2>Does_someone_know_python</h2>
+    <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
+    <p>This sidebar is of full height (100%) and always shown.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab animi, autem enim quas nobis! Commodi, modi ducimus? Quisquam dignissimos fuga harum tempore earum blanditiis amet assumenda ex temporibus rem.</p>
   </div>
 </main>
 
@@ -34,7 +47,8 @@
     top: 0;
     left: 0;
     background-color: #111;
-    padding-top: 20px;
+    padding-top: 2rem;
+    color: #ffffff;
   }
 
   .sidenav a,
