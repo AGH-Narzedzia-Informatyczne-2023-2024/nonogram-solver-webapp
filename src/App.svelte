@@ -4,6 +4,10 @@
   import Counter from './lib/Counter.svelte'
   import Sidebar from './lib/Sidebar.svelte';
   import Board from './lib/Board.svelte';
+
+  let rows: number
+  let columns: number
+  let colors: number
 </script>
 
 <main>
