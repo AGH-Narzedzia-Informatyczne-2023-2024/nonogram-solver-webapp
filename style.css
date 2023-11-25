@@ -59,12 +59,12 @@ body {
   
   /* Some media queries for responsiveness */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 12px;}
+    .sidenav {padding-top: 12px;} /*random comment*/
     .sidenav a {font-size: 154px;}/*random comment*/
 }
   
 .dropdown-container ul { 
-    margin-left:192px;     /*random comment*/
+    margin-left:192px;   /*what*/
     background-color: #111; 
     list-style: none; /*random comment*/
     margin-top: -36px;
