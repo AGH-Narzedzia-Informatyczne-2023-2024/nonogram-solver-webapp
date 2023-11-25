@@ -16,17 +16,7 @@ body {
   
   /* Style the sidenav links and the dropdown button */
   .sidenav a, .dropdown-btn {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-    border: none;
-    background: none;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
+    /*po co komu te style tutaj, wywale sobie*/
   }
   
   /* On mouse-over */
