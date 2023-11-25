@@ -57,21 +57,21 @@ body {
   /* Optional: Style the caret down icon */
   .fa-caret-down {
     float: right;
-    padding-right: 8px;
+    padding-right: 10px;
   }
   
   /* Some media queries for responsiveness */
   @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
+    .sidenav {padding-top: 16px;}
     .sidenav a {font-size: 18px;}
   }
   
   .dropdown-container ul { 
     position: fixed; 
-    margin-left:192px;     
+    margin-left:198px;     
     background-color: #111; 
     list-style: none; 
-    margin-top: -36px;
+    margin-top: -38px;
     padding: 0;
   }
   
