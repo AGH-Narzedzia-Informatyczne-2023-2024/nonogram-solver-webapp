@@ -11,17 +11,9 @@ body {
     justify-content: center;
 }
   
-  /* Style the sidenav links and the dropdown button */
-.sidenav a, .dropdown-btn {
-    padding: 6px 8px 6px 16px;
-    width: 100%;/*random comment*/
-    border: none;
-    background: none;/*random comment*/
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-    text-decoration: none;/*random comment*/
-}
+  .sidenav a, .dropdown-btn {
+    /*po co komu te style tutaj, wywale sobie*/
+  }
   
   /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
